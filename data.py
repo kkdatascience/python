@@ -1,3 +1,4 @@
+#class creation of child class
 class add(calculation):
     def display_sum(self):
         res=self.a+self.b
