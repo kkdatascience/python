@@ -4,6 +4,6 @@ for i in L
     if i%2 ==0
         even+=1
     else
-       odd +=1
+        odd +=1
 print("no of even number:",even)
 print("no of odd number:",odd)
