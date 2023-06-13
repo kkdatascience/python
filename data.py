@@ -1,9 +1,13 @@
-L=[1,2,3,4,5,6,7,8,9]
-even , odd=0,0
-for i in L
-    if i%2 ==0
-        even+=1
-    else
-        odd +=1
-print("no of even number:",even)
-print("no of odd number:",odd)
+class add(calculation):
+    def display_sum(self):
+        res=self.a+self.b
+    print ('sum is two is',res)
+
+#object creation with child class
+add1=add(10,20)
+add1.display()
+add1.display_sum()
+
+#parent class object creation
+cal=calculation(10,19)
+cal.display().
