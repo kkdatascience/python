@@ -1,7 +1,7 @@
 class add(calculation):
     def display_sum(self):
         res=self.a+self.b
-    print ('sum is two is',res)
+print ('sum is two is',res)
 
 #object creation with child class
 add1=add(10,20)
